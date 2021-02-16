@@ -1,0 +1,35 @@
+
+.give_border{
+        margin: 8em;
+        border-radius: 35px;
+        background-color: rgb(255, 255, 255,1) !important;
+}
+.signin_button{
+    padding: 5px 20px;
+    font-size: 20px;
+    border:none ;
+    border-radius: 15px;
+    background-color: #270073;
+    color: seashell;
+    outline:none !important;
+}
+input{
+    width:90%;
+    height:50px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #270073!important;
+    outline: none;
+}
+a{
+    color:midnightblue !important;
+}
+a:hover{
+    color: #00B3FF !important;
+}
+body{
+    background-image: url('https://i.pinimg.com/originals/fc/e9/7e/fce97eba95fd3de922940e31f8ab8982.gif') !important;
+}
+.border_right{
+    border-right: 1px solid black;
+}
