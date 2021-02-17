@@ -1,5 +1,7 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import img1 from './../../Assets/Login/loginWelcomeImg.png'
+
 const SignUp = () =>{
     return(
         <>
@@ -12,7 +14,7 @@ const SignUp = () =>{
                         <img src={img1}  className="img-fluid" />
                     </div>
                     <div className="col-lg-6  pt-5 pb-5 pl-5 pr-2 ">
-                        <h1 className="">Login</h1>
+                        <h1 className="">SignUp</h1>
                         <br />
                         <div >
                             <h4 className="text-left" >USERNAME</h4>
@@ -23,15 +25,10 @@ const SignUp = () =>{
                             <div className="text-left"><input type="password" className="text-center" placeholder="Password"></input></div>
                             <br />
                             <br />
-                            <button type="submit" className="signin_button">Sign In</button>
+                            <button type="submit" className="signin_button">Sign Up</button>
                             </div>
                             <br />
-                            <div className="text-left"><a href="#" >Forgot Password? </a></div>
-                            <div className="text-right pr-5 position_it_on_prev_div"><a href="#">Sign Up</a></div>
-                            
-                            
-                        <div>
-                            
+                            <div className="text-right pr-5 position_it_on_prev_div"><NavLink to="/" style={{textDecoration:'none',fontSize:'21px'}}>Login</NavLink>   
                         </div>
                     </div>
                 </div>

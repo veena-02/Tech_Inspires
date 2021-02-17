@@ -1,6 +1,7 @@
 import React from 'react'
 import img1 from './../../Assets/Login/loginWelcomeImg.png';
 import './Login.css';
+import { NavLink } from 'react-router-dom';
 
 const Login = () =>{
     return(
@@ -28,13 +29,10 @@ const Login = () =>{
                             <button type="submit" className="signin_button">Sign In</button>
                             </div>
                             <br />
-                            <div className="text-left" style={{display:'flex', justifyContent:'space-between',paddingRight:'20px',fontSize:'24px'}}>
-                                <a href="#"> Forgot Password?</a>
-                                <a href="#"> Sign Up?</a>
+                            <div className="text-left" style={{display:'flex', justifyContent:'space-between',padding:'25px',fontSize:'21px'}}>
+                                <NavLink to="/forgotpassword" style={{textDecoration: 'none'}}> Forgot Password? </NavLink>
+                                <NavLink to="/signup" style={{textDecoration: 'none'}}> Sign Up?</NavLink>
                             </div>
-                            
-                            
-                            
                         <div>
                             
                         </div>
