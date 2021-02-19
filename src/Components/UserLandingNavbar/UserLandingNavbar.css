@@ -1,0 +1,27 @@
+.__searchbar{
+    margin-top: 15px;
+    background-color: #e9e7e7;
+    height:30px;
+    width:200px;
+    border-radius: 10px;
+    border-color: white;
+    align-content: center;
+}
+input{
+    height:20px !important;
+    width:150px;
+    background-color: #e9e7e7;
+    border:none
+}
+.__navbar{
+    height:65px;
+    background-color:white;
+    padding: 3px 8px 3px 8px;
+}
+.__marginsideways{
+    margin:0px 1.2em 0px 1.2em ;
+}
+.__marginsideways2{
+
+    margin:0px 0.25em 0px 0.25em ;
+}

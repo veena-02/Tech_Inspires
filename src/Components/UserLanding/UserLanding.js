@@ -1,10 +1,10 @@
 import React from 'react'
 
-const UserLanding=()=>{
+export default function UserLanding(props) {
     return (
         <div>
-            UserLanding            
+            <h1 style={{color: 'white'}}>    USERLANDING</h1>
+            <button onClick={props.signOut}>SIGN OUT</button>
         </div>
     )
 }
-export default UserLanding;
