@@ -15,6 +15,7 @@ const App=()=>{
                     <Route exact path="/userlanding"   component={UserLanding} />
                     <Route exact path="/blogs"   component={Blogs} />
                     <Route exact path="/forgotpassword" component={ForgotPassword} />
+                    
                 </Switch>
         </>
     );
